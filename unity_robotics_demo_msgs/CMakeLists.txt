@@ -15,6 +15,8 @@ add_message_files(FILES
     TargetPose.msg
     CurrentDronePose.msg
     StatusColor.msg
+    Point32.msg
+    Point32Array.msg
 )
 add_service_files(FILES
     ObjectPoseService.srv
